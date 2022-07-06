@@ -7,8 +7,8 @@ body {
 
 .flex_container {
 
-    display      : flex;
-  
+    display: flex;
+
     margin-bottom: 100px;
 }
 
@@ -39,7 +39,7 @@ p {
     line-height   : 160%;
     letter-spacing: -0.02em;
     color         : #828282;
-    text-align    : justify;
+   
 }
 
 button {
@@ -57,7 +57,7 @@ button {
 }
 
 .half_width {
-    width      : 50%;
+    width : 50%;
     margin: 5%;
 }
 
@@ -72,13 +72,31 @@ button {
 .about {
     background-image : url(images/shapes/7.png);
     background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top      : 100px;
+    padding-bottom   : 100px;
 
 }
-.about img{
-    margin-left: 200px;
+
+.about img {
+    margin-left : 200px;
     margin-right: 200px;
-    width: 50%!important;
-    align-items: center;
+    width       : 50% !important;
+    align-items : center;
+}
+
+.recipie_section .half_width {
+    width  : 40%;
+    padding: 20px;
+
+    margin-right : 20px;
+    box-shadow   : 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+.recipie_text{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto!important;
+}
+.recipie_section img {
+    width: 100%;
 }
