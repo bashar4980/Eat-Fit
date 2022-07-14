@@ -118,3 +118,14 @@ button {
     color: #FF1E1E;
     margin-right: 5px;
 }
+.footer_text{
+   
+    padding: 50px ;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+.footer_text span{
+    color: #FB8B47;
+}
