@@ -8,6 +8,8 @@ body {
 .flex_container {
 
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 
     margin-bottom: 100px;
 }
@@ -99,4 +101,20 @@ button {
 }
 .recipie_section img {
     width: 100%;
+}
+#counter{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow   : 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+#counter h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+#counter i{
+    color: #FF1E1E;
+    margin-right: 5px;
 }
